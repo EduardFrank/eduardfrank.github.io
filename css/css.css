@@ -139,7 +139,7 @@ font-style: italic;
 }
 
 .area {
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 @media all and (min-width: 1000px) {
@@ -204,24 +204,21 @@ font-style: italic;
 
 .a1 {
     background: #061a49;
-    color: white;
 }
 
-.a2 {
-    background: #292333;
-    color: white;
+.angebot {
+
 }
 
-.a2 ul {
+.ausbildung ul {
     font-weight: bold;
 }
 
-.a3 {
-    background: #DDDDE0;
+.kunden {
     color: black;
 }
 
-.a3 tr {
+.kentnisse tr {
     vertical-align: text-top;
 }
 
@@ -229,32 +226,29 @@ font-style: italic;
     padding: 4px;
 }
 
-.a4 {
-    background: #DDDDE0;
-    color: black;
+.kunden {
+
 }
 
-.a4 a {
+.kunden a {
     color: blue;
 }
 
-.a4 li {
+.kunden li {
     float: left;
     width: 33%;
-    font-weight: bold;
 }
 
-.a5 {
-    background: #DDDDE0;
+.kentnisse {
     color: black;
 }
 
-.a6 {
+.kontakt {
     background: #292333;
     color: white;
 }
 
-.a6 a {
+.kontakt a {
     color: white;
 }
 
@@ -303,14 +297,14 @@ a.anchor {
 @media all and (min-width: 840px) {
     #home_left {
         width: 680px;
-        height: 258px;
+        height: 238px;
     }
 
     #home_right {
         width: 150px;
         position: relative;
         left: 600px;
-        top: -5px;
+        top: 10px;
     }
 
     #p1 {
@@ -322,7 +316,7 @@ a.anchor {
 @media all and (min-width: 650px) and (max-width: 839px) {
     #home_left {
         width: 580px;
-        height: 258px;
+        height: 238px;
     }
 
     #home_right {
